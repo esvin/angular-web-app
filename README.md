@@ -25,3 +25,36 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Learning
+
+# Angular.json
+Workspace configuration is created at the top level of the workspace.
+This is where you can set per-project defaults for CLI comand options, and specify configurations to use when the CLI builds a project.
+
+# Package.json
+Configures npm package dependencies that are available to all projects in the workspace.
+
+# Package-lock.json
+Provides version information fo all packages intalled into node_modules by npm client.
+
+# Karma.conf.js
+
+Is a Partial Karma configuration file. The CLi constructs the full runtime conf in memory.
+
+# Tsconfig.json
+
+The base Typescript configuration for projects in the workspace. All other conf files inherit form this base file. 
+
+# Tslint.json
+
+Default TSLit conf for the projects. TSLint will be deprecated and ESLint as standard linter for both TS and JS.
+
+# Interpolation Binding Sintax {{}}
+
+It allows to present a component's property directly inside a HTML Tag.
+
+# @Component 
+
+Is adecorator function that specifies the Angular metadata for component
